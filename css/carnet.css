@@ -1,0 +1,21 @@
+*{
+    margin: o;
+    padding: o;
+    font-family: "Helvetica";
+    
+}
+table, td, th{
+    width: 40%;
+    border: 2px solid #03A678;
+}
+table{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+th{
+    background-color: #4EBF9F;
+}
+td{
+    background-color: #F2F2F2;
+}

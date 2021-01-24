@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background:  #5175C0;;
+}
+.link-1 {
+  transition: 0.3s ease;
+  background:  #5175C0;;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid  #5175C0;
+  border-bottom: 4px solid #5175C0;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+#img1{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+
+}
+#info{
+    background-image: url(https://socialmass.co/wp-content/uploads/2018/09/fondo-blanco-pag-web.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+#info h2 {
+    font-weight: 300;
+    margin-left: 39.5%;
+    font-size: 2vw;
+    padding: 2%;
+    color: #152744;
+    font: oblique bold 200% helvetica;
+}
+#info p{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 29%;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    font: oblique bold  cursive;
+}
+#entrada{
+    background-image: url(https://www.actualidadviajes.com/wp-content/uploads/2020/11/mapa-america-central.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 3%;
+  }
+  #entrada h2{
+    font-weight: 300;
+    font-family: "bello-pro";
+    text-align: center;
+    font-size: 4vw;
+    background-color: black;
+    opacity: 70%;
+    border: solid 5px #9dfdc7;
+    margin-left: 37%;
+    margin-right: 36%;
+    padding: 2%;
+    color: #9dfdc7;
+    font: oblique bold  helvetica;
+  }
+  #fondo{
+    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #5175C0;
+  }
+  .site-title {
+    color: white;
+}
+
+.card {
+    background: white;
+    margin-bottom: 2em;	
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+.card h2{
+  font-weight: 300;
+  text-align: center;
+  color: #152744;
+  font: oblique bold 200% helvetica;
+}
+.card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.card-content {
+    padding: 1.9em;
+}
+
+
+.card-content p {
+    text-align: justify;
+    font-size: 98%;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
+
+/* Flexbox styles */
+@media screen and (min-width: 40em) {  
+  .cards {
+    margin-top: -1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 1em;
+    display: flex;
+    flex: 0 1 calc(50% - 0.5em);
+    /* width: calc(50% - 1em); */
+  }
+} /* mq 40em*/
+
+@media screen and (min-width: 60em) {
+  .cards {
+    margin-top: inherit;
+  }
+  
+  .card {
+    margin-bottom: 2em;
+    display: flex;
+    flex: 0 1 calc(33% - 0.5em);
+  }
+}
+footer{
+  background-color: black;
+  padding: 2%;
+}
+footer p{
+  color: #ffffff;
+  text-align: center;
+}
